@@ -59,7 +59,7 @@ SetSpriteSize(53, 200, 200)
 //Pergunta10
 LoadImage(54, "pergunta10.png")
 CreateSprite(54, 54)
-SetSpritePosition(54, 280, 380)
+SetSpritePosition(54, 280, 370)
 SetSpriteSize(54, 225, 150)
 
 //Pergunta11

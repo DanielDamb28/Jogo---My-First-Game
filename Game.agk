@@ -47,11 +47,11 @@ FILE_3=Computadores.agc;-1
 FILE_4=Perguntas.agc;-1
 
 [files]
-FILE_NAME_0=1;main.agc;1577;0
+FILE_NAME_0=0;main.agc;9926;0
 FILE_NAME_1=0;Portas.agc;451;1
 FILE_NAME_2=0;Variaveis.agc;205;2
 FILE_NAME_3=0;Computadores.agc;995;3
-FILE_NAME_4=0;Perguntas.agc;1010;4
+FILE_NAME_4=1;Perguntas.agc;1010;4
 
 [project]
 description=

@@ -7,7 +7,7 @@ movimento2 = 0
 m2 = 7
 iniciou = 0
 zoom = 3.6
-
+comeco = 0
 
 //Portas testes
 porta as integer = 0
@@ -100,7 +100,7 @@ abrePorta19 as integer = 0
 
 //Level10
 porta10 as integer = 485
-palavraChave10 as string = "livro"
+palavraChave10 as string = "porta"
 abrePorta10 as integer = 0
 
 

@@ -103,13 +103,30 @@ do
 	endif
 	
 	//Tela Inicial
-	if(GetPointerX() > 250 and GetPointerX() < 780 and GetPointerY() > 125 and GetPointery() < 270)
+	if(comeco = 0)
+		if GetSpriteCollision(3, 7) = 1
+			print(".")
+			print("  Aperte Espaço para jogar")
+			if (GetRawKeyReleased(32) = 1)
+				DeleteSprite(9)
+				DeleteSprite(8)
+				DeleteSprite(7)
+				DeleteSprite(110)
+				porta = 230
+				comeco = 1
+			endif
+		endif
+	endif
+	
+	
+	if(GetPointerX() > 250 and GetPointerX() < 780 and GetPointerY() > 125 and GetPointery() < 270 and comeco = 0)
 		if getpointerpressed()=1
             DeleteSprite(9)
             DeleteSprite(8)
             DeleteSprite(7)
             DeleteSprite(110)
             porta = 230
+            comeco = 1
         endif
 	endif
 		
