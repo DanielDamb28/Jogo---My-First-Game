@@ -77,6 +77,8 @@ SetSpriteSize(7, 260, 90)
 SetSpritePosition(7, 3, 104)
 
 portaSom = LoadSound("porta_abrindo.wav")
+LoadMusic(1, "musica_fundo.mp3")
+PlayMusic(1, 1)
 
 function texto()
 	StartTextInput()
